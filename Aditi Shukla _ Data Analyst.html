@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aditi Shukla | Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Spline+Sans+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2ea;--sh1:#fbfcf8;--ink:#1a2a2c;--mu:#5d6f6c;--ln:#c9d5cb;--hd:#dfe8dc;--g:#1f7a4d;--y:#ffe27a;--r:#d9482b;--b:#2a5bd7;--o:#b87b00;--shd:0 1px 0 var(--ln),0 22px 40px -12px rgba(26,42,44,.3);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a17;--sh1:#17241f;--ink:#e4efe8;--mu:#93a8a0;--ln:#2b3d36;--hd:#1f2f29;--g:#4fd08c;--y:#5a4b10;--r:#ff7a5c;--b:#7aa2ff;--o:#f0b44a;--shd:0 1px 0 var(--ln),0 22px 40px -12px rgba(0,0,0,.65)}}
+:root[data-theme="dark"]{--bg:#0f1a17;--sh1:#17241f;--ink:#e4efe8;--mu:#93a8a0;--ln:#2b3d36;--hd:#1f2f29;--g:#4fd08c;--y:#5a4b10;--r:#ff7a5c;--b:#7aa2ff;--o:#f0b44a;--shd:0 1px 0 var(--ln),0 22px 40px -12px rgba(0,0,0,.65)}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background-color:var(--bg);color:var(--ink);font:400 16px/1.55 Archivo,system-ui,sans-serif;background-image:linear-gradient(color-mix(in srgb,var(--ln) 60%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--ln) 60%,transparent) 1px,transparent 1px);background-size:36px 36px;background-attachment:fixed;padding-bottom:60px}
+a{color:var(--b)}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--b);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--ln)}
+.top .wrap{display:flex;align-items:center;gap:6px;height:52px}
+.top b{font-weight:800;margin-right:auto;letter-spacing:-.02em}
+.top a{color:var(--ink);text-decoration:none;font-size:14px;padding:6px 10px;border-radius:4px}
+.top a:hover{background:var(--hd)}
+.tg{border:1px solid var(--ln);background:var(--sh1);border-radius:4px;padding:5px 11px;font-size:13px}
+.mono,.fx,td,th,.tag,.st{font-family:"Spline Sans Mono",ui-monospace,monospace}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:48px 0 30px}
+.fx{display:flex;border:1px solid var(--ln);background:var(--sh1);border-radius:4px;font-size:13px;overflow:hidden}
+.fx b{padding:6px 12px;background:var(--hd);border-right:1px solid var(--ln);color:var(--g);font-style:italic;font-weight:600}
+.fx span{padding:6px 12px;min-height:34px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+h1{font:800 clamp(58px,11vw,122px)/.88 Archivo,sans-serif;letter-spacing:-.045em;margin:22px 0 18px}
+.role{font-size:21px;font-weight:600;margin:0 0 8px}
+.lede{color:var(--mu);max-width:46ch;margin:0 0 22px}
+.row{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border-radius:4px;font-weight:600;text-decoration:none;border:2px solid var(--g);background:var(--g);color:var(--sh1)}
+.btn.o{background:transparent;color:var(--g)}
+.stage{perspective:1200px;padding:18px 12px 26px}
+.stack{position:relative;transform-style:preserve-3d;transform:rotateX(calc(var(--rx,6)*1deg)) rotateY(calc(var(--ry,-12)*1deg)) rotateZ(-1deg);transition:transform .2s ease-out}
+.sh{background:var(--sh1);border:1px solid var(--ln);border-radius:4px;box-shadow:var(--shd)}
+.back{position:absolute;inset:26px -22px -26px 22px;background:var(--hd);transform:translateZ(-50px)}
+.k{position:relative;transform:translateZ(46px);animation:drop .8s cubic-bezier(.2,.9,.3,1) .1s both}
+.ch{position:relative;transform:translateZ(14px);margin-top:16px;padding:10px;animation:drop .8s cubic-bezier(.2,.9,.3,1) .35s both}
+.back{animation:drop .8s ease-out both}
+@keyframes drop{from{opacity:0;translate:0 50px}}
+.k table{width:100%;border-collapse:collapse;font-size:13px}
+.k th,.k td{border:1px solid var(--ln);padding:7px 10px;text-align:left;font-weight:400}
+.k th{background:var(--hd);color:var(--mu)}
+.k .n{text-align:right;font-weight:600}
+.sel{outline:2px solid var(--g);outline-offset:-2px}
+svg{width:100%;height:auto;display:block}
+.ax{stroke:var(--ln)}.tx{fill:var(--mu);font-size:10px;font-family:"Spline Sans Mono",monospace}
+.bub{cursor:pointer;outline:none;stroke:var(--sh1);stroke-width:2}
+.bub:hover,.bub:focus-visible{stroke:var(--ink)}
+.cap{font-size:13px;min-height:62px;margin:6px 2px 0}
+section{padding:46px 0}
+h2{font:800 clamp(32px,5vw,52px)/1 Archivo,sans-serif;letter-spacing:-.03em;margin:0 0 8px}
+.sub{color:var(--mu);max-width:58ch;margin:0 0 22px}
+.cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px}
+.case{padding:0;transition:border-color .2s}
+.case.done{border-color:var(--g)}
+.case header{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px;background:var(--hd);border-bottom:1px solid var(--ln);border-radius:4px 4px 0 0}
+.case h3{font-size:16px;margin:0}
+.case header span{font-size:12px;color:var(--mu)}
+.bd{padding:14px}
+.q{margin:0 0 12px;font-size:15px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--ln)}
+.opt{text-align:left;border:0;border-right:1px solid var(--ln);border-bottom:1px solid var(--ln);margin:0 -1px -1px 0;background:var(--sh1);padding:9px 10px;font-size:14px}
+.opt:hover:not(:disabled){background:var(--hd)}
+.opt.ok{background:var(--y);outline:2px solid var(--g);outline-offset:-2px;font-weight:600}
+.opt.no{color:var(--r);text-decoration:line-through;animation:sh .3s}
+@keyframes sh{25%{translate:-4px}75%{translate:4px}}
+.msg{font-size:13px;min-height:20px;margin-top:8px;color:var(--mu)}
+.rev{display:none;border-top:1px dashed var(--ln);margin-top:10px;padding-top:12px;font-size:14px}
+.done .rev{display:block;animation:in .35s}
+@keyframes in{from{opacity:0;translate:0 6px}}
+.db{position:relative;margin:7px 0;height:26px;border:1px solid var(--ln);background:var(--sh1);font-size:12px}
+.db i{position:absolute;inset:0 auto 0 0;width:0;background:color-mix(in srgb,var(--g) 55%,transparent);transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.db span{position:relative;display:flex;justify-content:space-between;padding:4px 8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{border:1px solid var(--ln);background:var(--hd);padding:2px 8px;font-size:12px;border-radius:2px}
+.win{display:none;margin-top:20px;padding:18px;text-align:center;background:var(--y);border:2px solid var(--g);border-radius:4px;font-weight:600}
+.win a{margin-left:8px}
+.tbl{width:100%;border-collapse:collapse;background:var(--sh1);border:1px solid var(--ln)}
+.tbl th,.tbl td{border:1px solid var(--ln);padding:10px 12px;text-align:left;font-size:14px;vertical-align:top}
+.tbl th{background:var(--hd);font-weight:400;color:var(--mu)}
+.tbl td button{all:unset;cursor:pointer;font:600 15px Archivo,sans-serif;display:block}
+.tbl td button:focus-visible{outline:3px solid var(--b)}
+.tbl ul{margin:0;padding-left:18px}
+.tbl tr.d td{background:var(--hd)}
+.tbl button::after{content:" +";color:var(--g)}
+.tbl button[aria-expanded="true"]::after{content:" \2212"}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.sk .sh{padding:14px}.sk h3{font-size:16px;margin:0 0 10px}
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.edu .sh{padding:14px}.edu h3{font-size:17px;margin:0 0 4px}.edu p{margin:2px 0 0;color:var(--mu);font-size:14px}
+.ct{padding:22px}
+.ct .fx span{white-space:normal}
+.toast{min-height:22px;font-size:14px;color:var(--g);margin-top:10px}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:18px 0}
+.st{position:fixed;left:0;right:0;bottom:0;z-index:9;display:flex;align-items:center;gap:14px;padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));background:var(--hd);border-top:1px solid var(--ln);font-size:12px}
+.st .tr{flex:1;max-width:260px;height:10px;border:1px solid var(--ln);background:var(--sh1)}
+.st .tr i{display:block;height:100%;width:0;background:var(--g);transition:width .6s}
+.st .lv{margin-left:auto;font-weight:600}
+.st .lv.pop{animation:pop .7s}
+@keyframes pop{30%{scale:1.25;color:var(--g)}}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.top .l{display:none}.st .tr{max-width:90px}}
+@media(max-width:420px){.opts{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{.top,.st,.opts{display:none}.rev{display:block!important}}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap"><b>Aditi Shukla</b><a class="l" href="#cases">Case files</a><a class="l" href="#exp">Experience</a><a class="l" href="#skills">Skills</a><a class="l" href="#contact">Contact</a><button class="tg" id="theme" aria-label="Switch light or dark theme">Dark mode</button></div></nav>
+<main class="wrap">
+<header class="hero">
+<div>
+<div class="fx"><b>fx</b><span id="fx"></span></div>
+<h1>Aditi<br>Shukla</h1>
+<p class="role">Data Analyst Intern at Viva Money</p>
+<p class="lede">MBA in Business Analytics. I build risk, collections and QA analytics at a lending fintech, and research how Indian shoppers split trust between AI tools and reviews. Below are eight case files: make your call first, then see what the data said.</p>
+<div class="row"><a class="btn" href="#cases">Start the case files</a><a class="btn o" href="#contact">Get in touch</a></div>
+</div>
+<div class="stage"><div class="stack" id="stack">
+<div class="sh back"></div>
+<div class="sh k"><table aria-label="Headline numbers"><tr><th></th><th>A</th><th>B</th></tr><tbody id="kt"></tbody></table></div>
+<div class="sh ch">
+<svg viewBox="0 0 360 200" role="img" aria-label="Bubble chart of four shopper segments by AI reliance and trust in reviews">
+<line class="ax" x1="30" y1="178" x2="352" y2="178"/><line class="ax" x1="30" y1="8" x2="30" y2="178"/>
+<rect x="248" y="112" width="102" height="62" fill="none" stroke="var(--r)" stroke-dasharray="4 3"/>
+<text class="tx" x="299" y="138" text-anchor="middle" style="fill:var(--r)">Nobody here:</text>
+<text class="tx" x="299" y="150" text-anchor="middle" style="fill:var(--r)">high AI use,</text>
+<text class="tx" x="299" y="162" text-anchor="middle" style="fill:var(--r)">low review trust</text>
+<text class="tx" x="191" y="196" text-anchor="middle">Reliance on AI tools (low to high)</text>
+<text class="tx" transform="translate(10 95) rotate(-90)" text-anchor="middle">Trust in reviews</text>
+<g id="bubs"></g></svg>
+<div class="cap" id="cap" aria-live="polite"><b>Dissertation, 360 shoppers.</b> No group swaps reviews for AI. Tap a bubble to read each group.</div>
+</div></div></div>
+</header>
+
+<section id="cases">
+<h2>Case files</h2>
+<p class="sub">Eight pieces of work. Pick an answer, earn XP, and unlock what I actually found. A second try earns half XP.</p>
+<div class="cases" id="cs"></div>
+<div class="win" id="win">All eight solved. That is my whole portfolio. <a href="#contact">Let's talk</a></div>
+</section>
+
+<section id="exp">
+<h2>Experience</h2>
+<p class="sub">Select a role to open its notes.</p>
+<table class="tbl"><thead><tr><th>Role</th><th>Where</th><th>When</th></tr></thead><tbody id="jobs"></tbody></table>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<p class="sub">Grouped by how I use them.</p>
+<div class="sk" id="sk"></div>
+</section>
+
+<section id="edu">
+<h2>Education and extras</h2>
+<div class="edu">
+<div class="sh"><h3>MBA, Business Analytics</h3><p>M. S. Ramaiah University of Applied Sciences<br>Jan 2025 to Jan 2027</p><p>CGPA 7.5+ (final result awaited)</p></div>
+<div class="sh"><h3>Bachelor's, Business/Commerce</h3><p>Amity University<br>Jul 2020 to Dec 2023</p></div>
+<div class="sh"><h3>Certifications and NCC</h3><p>Prompt Engineering<br>Guerrilla Marketing<br>NCC Air Wing, C Certificate (Bidar, Karnataka)</p></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="sh ct">
+<h2>Let's talk</h2>
+<div class="fx" style="margin:12px 0 18px"><b>fx</b><span>=OPEN_TO("data analyst", "business analyst", "marketing or product analyst", "Bengaluru")</span></div>
+<div class="row">
+<a class="btn" href="mailto:aditi6shukla@gmail.com">Email me</a>
+<a class="btn o" href="tel:+917353045400">Call 7353045400</a>
+<a class="btn o" href="https://www.linkedin.com/in/aditi-shuklaa93741345" target="_blank" rel="noopener">LinkedIn</a>
+<button class="btn o" id="copy">Copy email</button>
+</div>
+<div class="toast" id="toast" role="status"></div>
+</div>
+</section>
+</main>
+<footer>Aditi Shukla, Bengaluru</footer>
+<div class="st" role="status"><span id="sc">0 of 8 case files solved</span><div class="tr"><i id="xb"></i></div><span class="lv" id="lv">Level 1 Rookie, 0 XP</span></div>
+
+<script>
+const $=s=>document.querySelector(s),R=document.documentElement;
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* formula bar types once on load */
+const F='=ANALYST("Aditi Shukla", "Viva Money")';let fi=0;
+(function t(){$("#fx").textContent=F.slice(0,++fi);if(fi<F.length)setTimeout(t,RM?0:45)})();
+
+/* headline numbers count up */
+const KP=[["Alerts screened",12000,0,"+"],["Applications analysed",1.63,2," lakh"],["QA audits held",2631,0,""],["Shoppers surveyed",360,0,""]];
+KP.forEach((k,i)=>{const r=el("tr");r.innerHTML="<th>"+(i+1)+"</th><td></td><td class='n"+(i?"":" sel")+"'></td>";r.children[1].textContent=k[0];$("#kt").appendChild(r);
+const c=r.children[2],f=v=>v.toLocaleString("en-IN",{minimumFractionDigits:k[2],maximumFractionDigits:k[2]})+k[3];
+if(RM){c.textContent=f(k[1]);return}let s=null;
+const st=n=>{s=s||n;const p=Math.min(1,(n-s-600)/1300);c.textContent=f(k[1]*Math.max(0,1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(st)};requestAnimationFrame(st)});
+
+/* dissertation bubble chart */
+const SEG=[
+{n:"Review-anchored moderates",c:135,x:3.33,y:4.27,col:"var(--g)",t:"37.5% of shoppers. Quite interested in AI, still anchored in reviews."},
+{n:"Review sceptics",c:77,x:3.33,y:2.47,col:"var(--o)",t:"21.4% of shoppers. The only group that distrusts reviews, yet they use AI only moderately."},
+{n:"Review loyalists",c:77,x:2.19,y:4.17,col:"var(--b)",t:"21.4% of shoppers. Trust reviews, barely engage with AI."},
+{n:"Dual-source enthusiasts",c:71,x:4.29,y:4.10,col:"var(--r)",t:"19.7% of shoppers. Highest AI use, and they still trust reviews (4.1 out of 5)."}];
+const sx=v=>30+(v-1.5)*(322/3.5),sy=v=>175-(v-2)*(160/2.6);
+SEG.forEach(s=>{const e=document.createElementNS("http://www.w3.org/2000/svg","circle");
+e.setAttribute("cx",sx(s.x));e.setAttribute("cy",sy(s.y));e.setAttribute("r",Math.sqrt(s.c)*1.45);e.setAttribute("fill",s.col);e.setAttribute("fill-opacity",".8");
+e.setAttribute("class","bub");e.setAttribute("tabindex","0");e.setAttribute("role","button");e.setAttribute("aria-label",s.n+", "+s.c+" shoppers");
+const show=()=>{$("#cap").innerHTML="<b></b><br><span></span>";$("#cap b").textContent=s.n+" ("+s.c+")";$("#cap span").textContent=s.t};
+e.onclick=show;e.onmouseenter=show;e.onkeydown=k=>{if(k.key==="Enter"||k.key===" "){k.preventDefault();show()}};$("#bubs").appendChild(e)});
+
+/* depth: tilt the stack toward the pointer */
+if(!RM)addEventListener("pointermove",e=>{const x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5,s=$("#stack");s.style.setProperty("--ry",-12+x*16);s.style.setProperty("--rx",6-y*12)});
+
+/* case files game */
+const C=[
+{k:"Risk",t:"VKYC Risk Review Tracker",q:"Doubtful video-KYC calls lived in messy sheets. What did my tracker calculate automatically?",o:["Loan pricing","Case ageing","Credit scores","Call length"],a:1,r:"A form feeds one master log, a status tracker and a dashboard. Case ageing is calculated automatically, so the risk team no longer cleans data by hand.",g:["Google Sheets","Apps Script"]},
+{k:"Risk",t:"FIU Alert Matching",q:"I screened 12,000+ alerts against loan applications on PAN, Aadhaar, phone, bank and device. How many matched?",o:["10","150","800","2,000"],a:0,r:"10 matches: 9 already declined, 1 live loan flagged for action. A dashboard now runs the check automatically.",b:[["Already declined",9,10],["Live loan flagged",1,10]],g:["Dashboards","Data matching"]},
+{k:"Risk",t:"Application Decline Funnel",q:"Organic Android was 43% of ~1.63 lakh applications. What share of risk flags came from it?",o:["12%","27%","53%","80%"],a:2,r:"Only 2.8% were approved. Most declines were about credit, not fraud.",b:[["Applications",43,100],["Risk flags",53,100],["Approved",2.8,100]],g:["Funnel analysis","SQL"]},
+{k:"Risk",t:"Best-Customer Segment",q:"Comparing salary band and industry, which borrowers default least?",o:["Retail staff under 30k","Tech/IT above 1 lakh a month","Self-employed, any income","All groups equal"],a:1,r:"Tech/IT borrowers earning above 1 lakh a month default least. Default drops sharply above a 50,000 salary.",b:[["Default rate, Tech/IT above 1 lakh",23.75,100]],g:["SQL"]},
+{k:"Collections",t:"Collections Analytics",q:"Which days-past-due bucket gives the most recoveries?",o:["1-30 days","31-60 days","61-90 days","90+ days"],a:0,r:"1-30 days past due yields 92% of recoveries. Flexi looked far better than Credit Line only because its accounts were younger; at equal DPD they match. I also built an interactive dashboard on top.",b:[["1-30 DPD share of recoveries",92,100],["Flexi, raw",51,100],["Credit Line, raw",17,100],["Flexi, equal DPD",76.1,100],["Credit Line, equal DPD",75.7,100]],g:["Google Sheets","Cohort comparison"]},
+{k:"Automation",t:"QA Audit System",q:"In my Excel and VBA call-quality scorecard, a call fails one fatal check. What is its score?",o:["Zero","Half","Minus 10","Unchanged"],a:0,r:"10 fatal checks and 9 scored parameters. Any fatal failure scores zero and emails an alert automatically. It now holds 2,631 audits.",b:[["Fatal checks",10,10],["Scored parameters",9,10]],g:["Excel","VBA macros"]},
+{k:"Research",t:"Dissertation: AI Tools vs. Reviews",q:"360 shoppers, analysed in Python. Do people who lean on AI tools trust reviews less?",o:["Yes, strongly","No relation","Only the young","Yes, but weakly"],a:1,r:"AI usefulness, trust and reliance form one construct, unrelated to trust in reviews. Methods: CFA, equivalence tests, measurement invariance, ANOVA, K-means, logistic regression, random forest, XGBoost.",b:[["Heavy AI users trusting reviews below 3 of 5",7,78]],g:["Python","pandas","scikit-learn","semopy"]},
+{k:"Research",t:"AI Visibility Audit",q:"I compared 225 AI recommendations (3 engines, 15 categories) with 2,522 YouTube comments. How much did they overlap?",o:["Over 90%","About 60%","No more than 30%","Exactly 0%"],a:2,r:"Visibility Gap computed for 341 brand-category pairs: AI recommendations and what people discuss overlap by no more than 30%.",b:[["Maximum overlap",30,100]],g:["Python","APIs","Content analysis"]}];
+const LV=["Rookie","Analyst","Senior","Lead","Principal"];
+let ST={};try{ST=JSON.parse(localStorage.getItem("as_xp"))||{}}catch(e){}
+const save=()=>{try{localStorage.setItem("as_xp",JSON.stringify(ST))}catch(e){}};
+let lastL=-1;
+function hud(){const xp=Object.values(ST).reduce((a,b)=>a+b,0),n=Object.keys(ST).length,l=Math.min(4,xp/200|0);
+$("#sc").textContent=n+" of 8 case files solved";$("#xb").style.width=xp/8+"%";
+$("#lv").textContent="Level "+(l+1)+" "+LV[l]+", "+xp+" XP";
+if(lastL>=0&&l>lastL){const e=$("#lv");e.classList.remove("pop");void e.offsetWidth;e.classList.add("pop")}lastL=l;
+$("#win").style.display=n===8?"block":"none"}
+C.forEach((c,i)=>{const e=el("article","sh case");
+e.innerHTML="<header><h3></h3><span></span></header><div class='bd'><p class='q'></p><div class='opts'></div><div class='msg'></div><div class='rev'><div class='tx2'></div><div class='bs'></div><div class='tags'></div></div></div>";
+e.querySelector("h3").textContent=c.t;e.querySelector("span").textContent=c.k;e.querySelector(".q").textContent=c.q;
+const ob=e.querySelector(".opts"),msg=e.querySelector(".msg"),bs=e.querySelector(".bs");let tries=0;
+e.querySelector(".tx2").textContent=c.r;
+(c.b||[]).forEach(([l,v,m])=>{const d=el("div","db");d.innerHTML="<i></i><span><b></b><b></b></span>";const s=d.querySelectorAll("b");s[0].textContent=l;s[1].textContent=v+(m===100?"%":" of "+m);d.querySelector("i").dataset.w=v/m*100;bs.appendChild(d)});
+c.g.forEach(x=>e.querySelector(".tags").appendChild(el("span","tag",x)));
+const opts=c.o.map((x,j)=>{const b=el("button","opt",x);b.onclick=()=>{if(e.classList.contains("done"))return;
+if(j===c.a){const xp=tries?50:100;ST[i]=xp;save();fin(xp)}else{tries++;b.classList.add("no");b.disabled=true;msg.textContent="Not quite. Try again for half XP."}};ob.appendChild(b);return b});
+function fin(xp){e.classList.add("done");opts.forEach(b=>b.disabled=true);opts[c.a].classList.add("ok");msg.textContent="Solved. +"+xp+" XP";
+setTimeout(()=>e.querySelectorAll(".db i").forEach(f=>f.style.width=f.dataset.w+"%"),60);hud()}
+if(ST[i])fin(ST[i]);$("#cs").appendChild(e)});
+hud();
+
+/* experience table */
+const J=[
+["Data Analyst Intern","Viva Money, Bengaluru","Jul 2026 to present",["Built the VKYC risk tracker, FIU alert-matching dashboard and QA audit system.","Analysed declines, default risk and collections to show where to focus effort.","Built dashboards in Google Sheets and Power BI so teams stop reporting by hand."]],
+["Marketing Intern","Quizly.App","Nov 2025 to Jan 2026",["Ran outreach to influencers and clients.","Learned the product in depth to pitch it to prospects.","Tracked and compared marketing channels to find which ones actually worked."]],
+["Human Resources Intern","Shangri-La Group, Bengaluru","Oct 2025 to Nov 2025",["Supported employee onboarding and offboarding.","Contributed to HR policy formation."]],
+["FMC Digital Marketing Team","M. S. Ramaiah University of Applied Sciences","Nov 2024 to Nov 2025",["Carried out research for the team.","Organised MDP events and handled outreach to invite and coordinate guests."]]];
+J.forEach((j,i)=>{const r=el("tr"),d=el("tr","d");const c0=el("td"),b=el("button",null,j[0]);b.setAttribute("aria-expanded",i===0);c0.appendChild(b);
+r.appendChild(c0);r.appendChild(el("td",null,j[1]));r.appendChild(el("td",null,j[2]));
+const dc=el("td");dc.colSpan=3;const u=el("ul");j[3].forEach(x=>u.appendChild(el("li",null,x)));dc.appendChild(u);d.appendChild(dc);d.hidden=i!==0;
+b.onclick=()=>{d.hidden=!d.hidden;b.setAttribute("aria-expanded",!d.hidden)};$("#jobs").append(r,d)});
+
+/* skills */
+[["Query and code",["SQL","Python","pandas","SciPy","scikit-learn","XGBoost","semopy"]],["Spreadsheets and BI",["Excel formulas","VBA macros","Google Sheets","Apps Script","SUMIFS, COUNTIFS, FILTER","Power BI","PowerPoint"]],["Analysis methods",["Funnel analysis","Vintage analysis","Regression","K-means segmentation","Factor analysis","Hypothesis testing","Data reconciliation"]]].forEach(([h,a])=>{
+const c=el("div","sh");c.appendChild(el("h3",null,h));const t=el("div","tags");a.forEach(x=>t.appendChild(el("span","tag",x)));c.appendChild(t);$("#sk").appendChild(c)});
+
+/* theme and copy */
+const tb=$("#theme"),isDark=()=>R.dataset.theme?R.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
+const lab=()=>{tb.textContent=isDark()?"Light mode":"Dark mode"};lab();
+tb.onclick=()=>{R.dataset.theme=isDark()?"light":"dark";lab()};
+$("#copy").onclick=async()=>{const t=$("#toast");try{await navigator.clipboard.writeText("aditi6shukla@gmail.com");t.textContent="Copied aditi6shukla@gmail.com"}catch(e){t.textContent="Copy failed. Email: aditi6shukla@gmail.com"}};
+</script>
+</body>
+</html>
